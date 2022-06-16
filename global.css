@@ -1,0 +1,80 @@
+<style>
+	.header {
+		background-color: white;
+		text-align: left;
+		margin-top: 8px;
+		margin-left: 8px;
+	}
+	
+	.header h1 {
+		margin-left: 8px;
+		margin-top: 8px;
+	}
+	
+	.header p {
+		margin-left: 8px;
+		font-size: 1em;
+		font-style: italic;
+	}
+
+	.navbar {
+		padding: 8px 0 0 0;
+		margin: 0px -8px;
+		background-color: white;
+		color: black;
+		width: 100%;
+		text-align: right;
+		letter-spacing: .18em;
+	}
+	
+	.navbar + a {
+		float: left;
+		display: block;
+		color: black;
+		background-color: white;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	.navbar a.active {
+		color: black;
+		text-decoration: none;
+	}
+	
+	.navbar a:hover {
+		background-color: black;
+		text-decoration: none;
+		color: white;
+	}
+	
+	.content {
+		background-color: white;
+		margin: 0px;
+		width: 50%;
+		margin: 8px auto;
+		
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+	}
+	
+	.sticky {
+		position: fixed;
+		top: 0;
+	}
+
+	.sticky + .content {
+		padding-top: 50px;
+	}
+	
+	h1 {
+		font-family: Poiret One;
+		font-size: 2em;
+	}
+	
+	body {
+		margin: 0;
+		font-family: Helvetica;
+		font-size: 1em;
+	}
+</style>

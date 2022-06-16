@@ -1,0 +1,51 @@
+<style>
+	.aboutBlock {
+		width: 100%;
+		padding: 16px 0px;
+	}
+	
+	.aboutText {
+		width: 35%;
+		padding: 16px;
+	}
+	
+	.aboutImg {
+		width: 60%;
+		padding: 16px 0px;
+		float: right;
+	}
+	
+	.left {
+		float: left;
+	}
+	
+	.right {
+		float: right;
+	}
+	
+	.content {
+		width: 40%;
+	}
+	
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 4px;
+	}
+	
+	.column {
+		flex: 25%;
+		max-width: 100%;
+		padding: 0 4px;
+	}
+	
+	@media screen and (max-width: 1600px) {
+	  .aboutText {
+		width: 100%;
+	  }
+	  
+	  .aboutImg {
+		width: 100%;
+	  }
+	}
+</style>

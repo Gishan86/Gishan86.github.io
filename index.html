@@ -1,0 +1,161 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/fontawesome.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poiret+One">
+		<link rel="stylesheet" href="global.css">
+		<link rel="stylesheet" href="gallery.css">
+	</head>
+	<body>
+		<div id="xHeader" class="header">
+			<h1>Nature & Wildlife<br />Photography</h1>
+			<p>by Alexandra & Christian Stangl</p>
+		</div>
+		
+		<div id="xNavbar" class="navbar">
+			<!--<img id="xLogo" src="./images/logo.png" /> -->
+			<a href="./index.html" class="active">HOME</a>
+			 | 
+			<a href="./portfolio.html" class="active">PORTFOLIO</a>
+			<a href="./projects.html" class="active">PROJECTS</a>
+			<a href="./blog.html" class="active">BLOG</a>
+			<a href="./about.html" class="active">ABOUT</a>
+			<hr>
+		</div>
+		
+		<div id="xContent" class="content">
+			<div class="column">
+				<img src="./images/index/kingfisher.jpeg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+				<img src="./images/index/heron.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+				<img src="./images/index/squirrel.jpeg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+				<img src="./images/index/brownbear01.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+				<img src="./images/index/reddeer.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+				<img src="./images/index/roedeer02.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+				<img src="./images/index/sunriselakeneusiedl.jpeg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+				<img src="./images/index/payerbach.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+				<img src="./images/index/payerbachalex.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+			</div>
+			<div class="column">
+				<img src="./images/index/gopher.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+				<img src="./images/index/roedeer.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+				<img src="./images/index/brownbear02.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+				<img src="./images/index/brownbear03.jpg" onclick="openModal();currentSlide(13)" class="hover-shadow">
+				<img src="./images/index/deer.jpg" onclick="openModal();currentSlide(14)" class="hover-shadow">
+				<img src="./images/index/micebussard.jpg" onclick="openModal();currentSlide(15)" class="hover-shadow">
+				<img src="./images/index/sunriselakeneusiedlfrozen.jpeg" onclick="openModal();currentSlide(16)" class="hover-shadow">
+				<img src="./images/index/fuschlsee.jpg" onclick="openModal();currentSlide(17)" class="hover-shadow">
+				<img src="./images/index/schlosseckartsau.jpg" onclick="openModal();currentSlide(18)" class="hover-shadow">
+			</div>
+		</div>
+		
+		<!-- The Modal/Lightbox -->
+		<div id="xLightbox" class="lightbox" style="display: none">
+			<div class="modal-content">
+				<!-- Slides -->
+				<div class="slide" title="Male Kingfisher (Austria)|1/500 sec @ F/4.0, ISO 320, 420mm">
+				  <img class="slide-img" src="./images/index/kingfisher.jpeg" >
+				</div>
+				<div class="slide" title="Gray Heron|1/1600 sec @F/2.8, ISO 100, 300mm">
+				  <img class="slide-img" src="./images/index/heron.jpg">
+				</div>
+				<div class="slide" title="Squirrel (Vienna Central Cemetery)|1/640 sec @ F/4, ISO 640, 420mm">
+				  <img class="slide-img" src="./images/index/squirrel.jpeg" >
+				</div>
+				<div class="slide" title="Brown Bear (Slovenia)|1/60 sec @ F/5.6, ISO 320, 600mm">
+				  <img class="slide-img" src="./images/index/brownbear01.jpg" >
+				</div>
+				<div class="slide" title="Red Deer (Lower Austria)|1/125 sec @ F/6.3, ISO 1000, 600mm">
+				  <img class="slide-img" src="./images/index/reddeer.jpg" >
+				</div>
+				<div class="slide" title="Roe Deer (Vienna, Austria)|1/160 sec @ F/6.3, ISO 3200, 600mm">
+				  <img class="slide-img" src="./images/index/roedeer02.jpg" >
+				</div>
+				
+				<div class="slide" title="Sunrise over Lake Neusiedl (Austria)|20 sec @ F/5.6, ISO 100, 35mm">
+				  <img class="slide-img" src="./images/index/sunriselakeneusiedl.jpeg" >
+				</div>
+				
+				<div class="slide" title="Payerbach (Lower Austria)|1/500 sec @ F/7.1, ISO 200, 18mm">
+				  <img class="slide-img" src="./images/index/payerbach.jpg" >
+				</div>
+				
+				<div class="slide" title="Payerbach (Lower Austria)|1/1000 sec @ F/16, ISO 200, 18mm">
+				  <img class="slide-img" src="./images/index/payerbachalex.jpg" >
+				</div>
+				
+				<div class="slide" title="Gopher (Austria)|1/1600 sec @ F/5.6, ISO 320, 600mm">
+				  <img class="slide-img" src="./images/index/gopher.jpg" >
+				</div>
+				
+				<div class="slide" title="Roe Deer (Lower Austria)|1/200 sec @ F/6.3, ISO 640, 600mm">
+				  <img class="slide-img" src="./images/index/roedeer.jpg" >
+				</div>
+				
+				<div class="slide" title="Brown Bear (Slovenia)|1/40 sec @ F/2.8, ISO 1250, 144mm">
+				  <img class="slide-img" src="./images/index/brownbear02.jpg" >
+				</div>
+				
+				<div class="slide" title="Brown Bear (Slovenia)|1/640 sec @ F/4, ISO 640, 420mm">
+				  <img class="slide-img" src="./images/index/brownbear03.jpg" >
+				</div>
+				
+				<div class="slide" title="Deer (Yosemite Valley, USA)|1/15 sec @ F/8.0, ISO 100, 130mm">
+				  <img class="slide-img" src="./images/index/deer.jpg" >
+				</div>
+				
+				<div class="slide" title="Mice Buzzard (Markovec, Slovenia)|1/2000 sec @ F/2.8, ISO 100, 300mm">
+				  <img class="slide-img" src="./images/index/micebussard.jpg" >
+				</div>
+				
+				<div class="slide" title="Sunrise over frozen Lake Neusiedl (Austria)|1/8 sec @ F/5.6, ISO 100, 18mm">
+				  <img class="slide-img" src="./images/index/sunriselakeneusiedlfrozen.jpeg" >
+				</div>
+				
+				<div class="slide" title="Fuschl See (Salzburg, Austria)|1/500 @ F/4.0, ISO 100, 28mm">
+				  <img class="slide-img" src="./images/index/fuschlsee.jpg" >
+				</div>
+				
+				<div class="slide" title="Schloss Eckartsau (Lower Austria)|1/400 sec @ F/4.0, ISO 200, 70mm">
+				  <img class="slide-img" src="./images/index/schlosseckartsau.jpg" >
+				</div>
+				
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+				<!-- close button -->
+				<span class="close" onclick="closeModal()">&times;</span>
+				
+				<!-- Caption text -->
+				<div class="slide-caption-container">
+				  <h1 id="slide-caption"></h1>
+				  <p id="slide-infos"></p>
+				</div>
+			</div>
+		  
+			<!-- The dots/circles -->
+			<div class="dot-container">
+			  <span class="dot" onclick="currentSlide(1)"></span>
+			  <span class="dot" onclick="currentSlide(2)"></span>
+			  <span class="dot" onclick="currentSlide(3)"></span>
+			  <span class="dot" onclick="currentSlide(4)"></span>
+			  <span class="dot" onclick="currentSlide(5)"></span>
+			  <span class="dot" onclick="currentSlide(6)"></span>
+			  <span class="dot" onclick="currentSlide(7)"></span>
+			  <span class="dot" onclick="currentSlide(8)"></span>
+			  <span class="dot" onclick="currentSlide(9)"></span>
+			  <span class="dot" onclick="currentSlide(10)"></span>
+			  <span class="dot" onclick="currentSlide(11)"></span>
+			  <span class="dot" onclick="currentSlide(12)"></span>
+			  <span class="dot" onclick="currentSlide(13)"></span>
+			  <span class="dot" onclick="currentSlide(14)"></span>
+			  <span class="dot" onclick="currentSlide(15)"></span>
+			  <span class="dot" onclick="currentSlide(16)"></span>
+			  <span class="dot" onclick="currentSlide(17)"></span>
+			  <span class="dot" onclick="currentSlide(18)"></span>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="global.js"></script>
+		<script type="text/javascript" src="gallery.js"></script>
+	</body>
+</html>
