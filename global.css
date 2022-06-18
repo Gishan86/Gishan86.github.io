@@ -1,6 +1,5 @@
 <style>
 	.header {
-		background-color: white;
 		text-align: left;
 		margin-top: 8px;
 		margin-left: 8px;
@@ -17,14 +16,30 @@
 		font-style: italic;
 	}
 
+	.logo {
+		display: none;
+		position: absolute;
+		top: 2;
+		left: 8;
+		width: 24px;
+		height: 24px;
+		margin: auto;
+	}
+
 	.navbar {
 		padding: 8px 0 0 0;
-		margin: 0px -8px;
-		background-color: white;
+		margin: 0px 0px;
 		color: black;
 		width: 100%;
 		text-align: right;
 		letter-spacing: .18em;
+	}
+	
+	.navbar.shadow {
+		background-color: white;
+		-webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+		-moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+		box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
 	}
 	
 	.navbar + a {
@@ -48,7 +63,6 @@
 	}
 	
 	.content {
-		background-color: white;
 		margin: 0px;
 		width: 50%;
 		margin: 8px auto;
@@ -76,5 +90,6 @@
 		margin: 0;
 		font-family: Helvetica;
 		font-size: 1em;
+		background-color: white;
 	}
 </style>
